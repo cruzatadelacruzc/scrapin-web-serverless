@@ -45,7 +45,6 @@ Resources:
     Type: AWS::CloudWatch::Alarm
     Properties:
       AlarmDescription: Lambda function canary errors
-      AlarmName: web-scraping-api-canary-errors
       ComparisonOperator: GreaterThanThreshold
       EvaluationPeriods: 2
       MetricName: Errors
